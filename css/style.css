@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'FoglihtenNo06';
+	src: url('../fonts/FoglihtenNo06.woff2') format('woff2'), url('../fonts/FoglihtenNo06.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li{
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+header{
+        font-family: 'FoglihtenNo06';
+        font-size: 80px;
+        font-weight: 600;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 20px; 
+        text-shadow: 2px 2px 10px darkred;
+      }
+      main{
+        font-family: 'Roboto';
+      }
+      .discription{
+        font-size: 22px;
+        font-weight: 500;
+        font-style: italic;
+        text-align: left;
+        color: darkred;
+        text-shadow: 1px 1px 1px black;
+      } .agility{
+        
+        font-size: 22px;
+        font-weight: 500;
+        font-style: italic;
+        text-align: left;
+        color: green;
+        text-shadow: 1px 1px 1px black;
+      }
+      .ability{
+        font-size: 22px;
+        font-weight: 500;
+        font-style: italic;
+        text-align: left;
+        color: black;
+        text-shadow: 1px 1px 1px black;
+      }
+      .navigation{
+        font-family: 'Roboto';
+        font-weight: bold;
+        text-shadow: 1px 1px 1px red;
+        text-align: left;
+        text-indent: 20%;
+        font-size: 18px;
+        }
+        h2{
+          font-family: 'FoglihtenNo06';
+          font-size: 30px;  
+          font-weight: 600;
+          font-style: italic;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 10px;
+          word-spacing: 40px;
+        }
+        p{
+          font-family: 'Roboto';
+          font-weight: bold;
+          font-size: 18px;
+          font-style: oblique;
+          text-align: left;
+          text-transform: none;
+          text-indent: 30px;
+          letter-spacing: -1px;
+        }
+        h3{
+          font-family: 'FoglihtenNo06';
+          font-size: 20px;  
+          font-weight: 600;
+          font-style: italic;
+          text-align: left;
+          text-transform: uppercase;
+          text-indent: 30px;
+          text-shadow: 1px 1px 1px darkred;
+          letter-spacing: 3px;
+          word-spacing: 10px;
+        }
+        ul{
+          font-family: 'Roboto';
+          font-weight: bold;
+          text-shadow: 1px 1px 1px yellow;
+          text-align: left;
+          text-indent: 30px;
+          font-size: 16px; 
+        }
+        .talanty{
+          text-align: left;
+          text-indent: 50px;
+        }
+        .talentlvl{
+          font-family: 'Roboto';
+          font-weight: bold;
+          text-shadow: 1px 1px 1px yellow;
+          font-size: 25px; 
+        }
+        .abilityicon{
+          text-indent: 30px;
+        }
+        .heroicon{
+          float: right;
+          margin: 30px 150px 150px 150px;
+                  }
+      
